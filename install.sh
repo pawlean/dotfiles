@@ -18,3 +18,5 @@ brew install minikube
 
 brew install tree
 brew install bat
+brew install autojump
+brew install exa
