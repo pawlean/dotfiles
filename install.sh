@@ -14,6 +14,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/z
 
 brew install minikube
 
-# tree
+# other tools
 
 brew install tree
+brew install bat
