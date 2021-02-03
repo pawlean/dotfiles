@@ -260,15 +260,15 @@ build_prompt() {
 
 PROMPT_EMOJI=(💜 🤦🏻‍♀️ 🤷🏻‍♀️ 🦄 💁🏻‍♀️ 🎉 💆🏻‍♀️ 💟 🚺 👾 🍇 🟣 🟪 👩🏻‍🎤 🐾 💪🏼 ✨ 🌴 🌊 ⛱  🗺 ⛵️ 🐚 🫂 🤗 😊 🧘🏻‍♀️ 🏋🏻‍♀️ 💻 👩🏻‍💻 🏝)
 
-ERROR_EMOJI=(🌧 ⛈ 🌩 🔥 💥 👾 😫 😩 😤 😮 😱 😨 😰 😹 👎 😂 😢 😥 😪 😓 \
+ERROR_EMOJI=(🌧 ⛈ 🌩 🔥 💥 😫 😩 😤 😮 😱 😨 😰 😹 👎 😂 😢 😥 😪 😓 \
 😭 💩 👻 👿 🙀 😿 🚽 🗯 🌪)
 
 function random_prompt_emoji {
-  echo -n "$PROMPT_EMOJI[$RANDOM%$#PROMPT_EMOJI+1]"
+  echo -n "$PROMPT_EMOJI[$RANDOM % $#PROMPT_EMOJI+1]" " \e[2m :)"
 }
 
 function random_error_emoji {
-  echo -n "$ERROR_EMOJI[$RANDOM%$#ERROR_EMOJI+1]"
+  echo -n "$ERROR_EMOJI[$RANDOM%$#ERROR_EMOJI+1]" " \e[2mnope"
 }
 
-PROMPT='%(?,$(random_prompt_emoji) ,$(random_error_emoji) ) % %{%f%b%k%}$(build_prompt)'
+PROMPT='%(?,$(random_prompt_emoji),$(random_error_emoji) ) % %{%f%b%k%}$(build_prompt)'
