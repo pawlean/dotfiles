@@ -10,6 +10,18 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
+# Update Homebrew (Cask) & packages
+brew update
+brew upgrade
+
+# Update npm & packages
+npm install npm -g
+npm update -g
+
+# Update Ruby & gems
+sudo gem update —system
+sudo gem update
+
 # minikube
 
 brew install minikube
