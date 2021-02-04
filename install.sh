@@ -24,11 +24,16 @@ sudo gem update —system
 sudo gem update
 
 # minikube
-
 brew install minikube
 
 # other tools
-
 brew install bat
 brew install autojump
 brew install exa
+
+# Applications
+brew install --cask lastpass
+brew install --cask spotify
+brew install --cask zoom 
+brew install --cask iterm2
+brew install --cask visual-studio-code
