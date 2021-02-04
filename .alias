@@ -1,9 +1,17 @@
-alias l="ls -la"       # List in long format, include dotfiles
-alias ld="ls -ld */"   # List in long format, only directories
+# a more colourful, detailed ls
+alias l="exa --tree --level=2 --long --header" 
+
+# List in long format, only directories
+alias ld="ls -ld */"   
+
+# a better version of cat
+alias cat="bat" 
+
+# navigation
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
-alias cat="bat"
 
 # Recursively remove .DS_Store files
 alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
+ghhhbbbbvvvvfgjgjgfhjgfjgfghggdtghyujnnnmvrrttjmmmmmmgfghbvghbn jgddtynn
