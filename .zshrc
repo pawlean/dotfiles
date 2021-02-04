@@ -77,6 +77,8 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+source ~/dotfiles/alias.zsh
+source ~/dotfiles/functions.zsh
 
 # User configuration
 
