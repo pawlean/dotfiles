@@ -25,7 +25,6 @@ brew install minikube
 
 # other tools
 
-brew install tree
 brew install bat
 brew install autojump
 brew install exa
