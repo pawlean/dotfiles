@@ -6,17 +6,11 @@ cd dotfiles
 sh install.sh
 
 # start symlink
-ln -sv ~/dev/dotfiles/.alias ~
+ln -sv ~/dotfiles/.alias ~
 source .alias
 
-ln -sv ~/dev/dotfiles/.functions ~
+ln -sv ~/dotfiles/.functions ~
 source .functions
 
-ln -sv ~/dev/dotfiles/.macos ~
+ln -sv ~/dotfiles/.macos ~
 source .macos
-
-ln -sv ~/dotfiles/.oh-my-zsh/oh-my-zsh.sh ~
-source .oh-my-zsh/oh-my-zsh.sh
-
-ln -sv ~/dotfiles/.oh-my-zsh/themes/agnoster.zsh-theme ~
-source themes/agnoster.zsh-theme
