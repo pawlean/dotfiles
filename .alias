@@ -1,5 +1,5 @@
 # a more colourful, detailed ls
-alias l="exa --tree --level=2 --long --header" 
+alias l="exa --tree --level=2 --long --header -a" 
 
 # List in long format, only directories
 alias ld="ls -ld */"   
