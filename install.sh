@@ -7,11 +7,15 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # auto-suggestion plugin
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
+# install Brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 # Update Homebrew (Cask) & packages
 brew update
 brew upgrade
 
 # Update npm & packages
+brew install npm
 npm install npm -g
 npm update -g
 
