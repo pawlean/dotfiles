@@ -264,7 +264,7 @@ ERROR_EMOJI=(🌧 ⛈ 🌩 🔥 💥 😫 😩 😤 😮 😱 😨 😰 😹 �
 😭 💩 👻 👿 🙀 😿 🚽 🗯 🌪)
 
 function random_prompt_emoji {
-  echo -n "$PROMPT_EMOJI[$RANDOM % $#PROMPT_EMOJI+1]" " \e[2m :)"
+  echo -n "$PROMPT_EMOJI[$RANDOM % $#PROMPT_EMOJI+1]"
 }
 
 function random_error_emoji {
