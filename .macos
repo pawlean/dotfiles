@@ -18,3 +18,8 @@ sudo nvram SystemAudioVolume=” “
 
 # Set OS dark mode, thanks https://www.simonewebdesign.it/how-to-enable-dark-mode-macos-command-line/ 
 osascript -e 'tell app "System Events" to tell appearance preferences to set dark mode to not dark mode'
+
+# Other stuff not automated, but reminding myself to look at:
+# Set Hot Corner (R) to lock screen
+# Connect all bluetooth devices - touchpad, keyboard, headphones
+# Test mic and camera
