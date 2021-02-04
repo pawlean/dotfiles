@@ -15,6 +15,7 @@ brew update
 brew upgrade
 
 # Update npm & packages
+brew install npm
 npm install npm -g
 npm update -g
 
