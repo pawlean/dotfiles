@@ -79,6 +79,8 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 source ~/dotfiles/alias.zsh
 source ~/dotfiles/functions.zsh
+source /path/to/kube-ps1.sh
+PROMPT='$(kube_ps1)'$PROMPT
 
 # User configuration
 
