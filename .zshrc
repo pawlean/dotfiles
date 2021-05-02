@@ -77,8 +77,8 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-source ~/dotfiles/alias.zsh
-source ~/dotfiles/functions.zsh
+source ~/dotfiles/.alias
+source ~/dotfiles/.functions
 source ~/dotfiles/kube-ps1/kube-ps1.sh
 PROMPT='$(kube_ps1)'$PROMPT
 
