@@ -37,3 +37,14 @@ brew install --cask spotify
 brew install --cask zoom 
 brew install --cask iterm2
 brew install --cask visual-studio-code
+brew install --cask caffeine
+brew install --cask google-drive
+brew install --cask notion
+brew install --cask discord
+brew install --cask slack
+brew install --cask zoom
+brew install --cask obs
+brew install --cask audacity
+brew install --cask adobe-creative-cloud
+brew install --cask firefox
+
